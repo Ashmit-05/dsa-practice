@@ -31,5 +31,6 @@ public class OneAway {
         s2 = sc.next();
         OneAway obj = new OneAway();
         System.out.println(obj.checkOneEditAway(s1, s2));
+        sc.close();
     }
 }

@@ -2,11 +2,10 @@ public class LinkedList{
     public Node head;
     public Node tail;
     public int size;
-    public LinkedList(int data) {
-        Node n = new Node(data);
-        this.head = n;
+    public LinkedList() {
+        this.head = null;
         this.tail = this.head;
-        size = 1;
+        size = 0;
     }
     private void createList(int data) {
         Node n = new Node(data);
